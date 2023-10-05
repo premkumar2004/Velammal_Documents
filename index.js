@@ -10,7 +10,7 @@ const PORT = 5001;
 const multer = require('multer');
 const bodyParser = require('body-parser');
 
-mongoose.connect('mongodb+srv://yuvaraj0313:X7xYDWxajUbc8VVb@cluster0.26ivkzw.mongodb.net/Doocuments', {
+mongoose.connect('mongodb+srv://yuvaraj0313:X7xYDWxajUbc8VVb@cluster0.26ivkzw.mongodb.net/Documents', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
