@@ -150,8 +150,7 @@ margin-left : -8px
   /* For screens smaller than 768px (Mobile devices) */
 @media only screen and (max-width: 767px) {
   .form {
-    width: 170px;
-    height: 300px;
+   
   }
 
   
