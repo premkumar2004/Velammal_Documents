@@ -41,7 +41,7 @@ const loginSchema= new mongoose.Schema({
   
 })
 app.use(express.static('views'));
-const Item = mongoose.model('patents', itemSchema,
+const Item = mongoose.model('items', itemSchema,
 
 );
 const Login = mongoose.model('login', loginSchema
@@ -386,5 +386,5 @@ app.get('/chart', async (req, res) => {
 
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:5001`);
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
